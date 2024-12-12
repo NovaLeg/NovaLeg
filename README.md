@@ -1,4 +1,15 @@
+```python
+class Nova:
+    def __init__(self):
+        self.name = "Nova"
+        self.role = "Learner"
+        self.language = ["Python", "JavaScript (a little bit)"]
+        self.language_learning = ["None"]
+        self.language_spoken = ["English", "Hindi", "Assamese"]
 
-<h1 align="center"></h1>  
-<p align="center"> </p>
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=NovaLeg&count_private=true&hide_border=true&border_radius=5&show_icons=false&include_all_commits=true&bg_color=50,477bff,e047ff&text_color=ffffff&title_color=ffffff" /> </p>
+    def say_hey(self):
+        print("Hey there! I'm Nova, and I'm exploring the world of programming.")
+
+me = Nova()
+me.say_hey()
+```
